@@ -1,0 +1,24 @@
+{
+    "name": "genpress-seed", "version": "0.0.1", "private": true,
+    "description": "Application on Express with ES6 Generators",
+
+    "repository": {
+        "type":"git", "url":"https://github.com/genpressjs/genpress-seed.git"
+    },
+
+    "main": "node/index.js",
+
+    "scripts": {
+        "start": "node --harmony node/index.js"
+    },
+
+    "dependencies": {
+        "general-express": "latest",
+        "passport": "latest"
+    },
+    "engines": {
+        "node" : ">=0.11.9"
+    },
+
+    "license": "GPL"
+}

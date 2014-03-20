@@ -1,5 +1,5 @@
 {
-    "name": "genpress-seed", "version": "0.0.5", "private": true,
+    "name": "genpress-seed", "version": "0.1.0", "private": true,
     "description": "Application on Express with ES6 Generators",
 
     "repository": {
@@ -14,7 +14,7 @@
     },
 
     "dependencies": {
-        "general-express": "latest",
+        "genpress": "latest",
         "passport": "latest"
     },
     "devDependencies": {

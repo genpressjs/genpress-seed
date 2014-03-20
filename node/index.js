@@ -1,4 +1,4 @@
-var App= require('general-express')
+var App= require('genpress')
 var app= module.exports= App()
 
 

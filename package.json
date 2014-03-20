@@ -1,5 +1,5 @@
 {
-    "name": "genpress-seed", "version": "0.1.0", "private": true,
+    "name": "genpress-seed", "version": "0.1.1", "private": true,
     "description": "Application on Express with ES6 Generators",
 
     "repository": {

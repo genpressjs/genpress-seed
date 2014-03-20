@@ -11,7 +11,9 @@ app.use('/api', require('Example/handlers/Auth').init)
 app.use('/api', require('Example/handlers/Auth').initSession)
 
 // subapps
-
+app.use('/api/v1/user/registration'
+,   require('Example/handlers/Api/UserRegistration')
+)
 app.use('/api/v1/user'
 ,   require('Example/handlers/Api/User')
 )

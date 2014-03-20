@@ -9,12 +9,16 @@
     "main": "node/index.js",
 
     "scripts": {
-        "start": "node --harmony node/index.js"
+        "start": "node --harmony node/index.js",
+        "serve": "supervisor --harmony node/index.js"
     },
 
     "dependencies": {
         "general-express": "latest",
         "passport": "latest"
+    },
+    "devDependencies": {
+        "supervisor": ">=0.5.7"
     },
     "engines": {
         "node" : ">=0.11.9"
